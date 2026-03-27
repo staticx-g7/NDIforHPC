@@ -1,0 +1,92 @@
+# Compiled binaries (NDI executables)
+ndi_test_streamer
+ndi_direct_viewer
+ndi_frame_saver
+ndi_port_monitor
+ndi_gui_viewer
+ndi_recv
+
+# Object files
+*.o
+*.a
+*.so
+*.out
+
+# Build directories
+build/
+cmake-build-*/
+*.dSYM/
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# OS files
+.DS_Store
+Desktop.ini
+
+# Test output files (saved frames)
+frame_*.png
+*.mov
+*.mp4
+*.avi
+
+# Log files
+*.log
+nohup.out
+
+# Temporary files
+*.tmp
+*.temp
+tmp/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# C++ build artifacts
+Makefile
+*.gcno
+*.gcda
+*.gcov
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+
+# NDI SDK (large, should not be committed)
+NDI SDK*/
+NDI-SDK*/
+
+# SSH keys (security!)
+*.pem
+*.ppk
+id_*
+*.key
+
+# tmux session files
+.tmux*
+
+# Local configuration files
+local.conf
+config.local
+
+# Backup files
+*.bak
+*.backup
+*~
