@@ -1,0 +1,48 @@
+{
+	"FileVersion": 3,
+	"Version": 2,
+	"VersionName": "2.0",
+	"FriendlyName": "NDI for HPC",
+	"Description": "High-performance NDI streaming solution for vehicle-based streaming sources with automatic discovery, attachment, and retargeting",
+	"Category": "Media",
+	"CreatedBy": "HPC Team",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"EnabledByDefault": false,
+	"SupportedTargetPlatforms": [ "Win64", "Mac", "Linux" ],
+	"Modules": [
+		{
+			"Name": "NDIforHPC",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [ "Win64", "Mac", "Linux" ]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "NDIMedia",
+			"Enabled": true
+		},
+		{
+			"Name": "MediaIOFramework",
+			"Enabled": true
+		},
+		{
+			"Name": "Niagara",
+			"Enabled": true
+		},
+		{
+			"Name": "MoviePlayer",
+			"Enabled": true
+		},
+		{
+			"Name": "LevelSequence",
+			"Enabled": true
+		}
+	]
+}
